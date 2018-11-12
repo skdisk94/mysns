@@ -1,0 +1,50 @@
+package mysns.sns;
+
+public class Message {
+	private int mid;
+	private String uid;
+	private String msg;
+	private int favcount;
+	private int reply;
+	
+	private String date;
+	
+	public int getMid() {
+		return mid;
+	}
+	public void setMid(int mid) {
+		this.mid = mid;
+	}
+	public String getUid() {
+		return uid;
+	}
+	public void setUid(String uid) {
+		this.uid = uid;
+	}
+	public String getMsg() {
+		return msg;
+	}
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	public int getFavcount() {
+		return favcount;
+	}
+	public void setFavcount(int favcount) {
+		this.favcount = favcount;
+	}
+	public int getReply() {
+		return reply;
+	}
+	public void setReply(int reply) {
+		this.reply = reply;
+	}
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	
+	
+}
